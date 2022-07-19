@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(250, 241, 229);
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:rgb(250, 120, 73);
+    font-size: 40pt;
+}
+a{
+    text-decoration: none;
+}
+table{
+    margin:auto;
+}
+td.page{
+    width:350px;
+    height:350px;
+}
+img{
+    display:block;
+    border-radius: 20px;
+    width:350px;
+    height:350px;
+}
+.container{
+    position:relative;
+    width:50%;
+}
+.overlay {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+    width: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(250, 120, 73);
+  }
+.container:hover .overlay {
+    opacity: 0.9;
+}
+.text {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.recipe{
+    color:white;
+    text-decoration: underline;
+}
+table.header{
+    margin-left: auto;
+    margin-right:auto;
+}
+img.chef{
+    width:50px;
+    height:50px;
+}
